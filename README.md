@@ -1,15 +1,15 @@
-simple-multi-font-size-picker
+jquery-web-multimulta-font-size-changer
 =============================
-It can change font size of your web content by clicking an icon immediately. The plugin was written by jquery and easy to add to your website. And these are the advantages to using this:
-
+The plugin “web multimulta font size chnager” can change font size of your web content by clicking an icon immediately. The plugin was written by jquery and easy to add to your website. It’s good for building a web accessibility website and also can record user’s selection by cookies. 
+And these are the overview of the advantages to using this plugin:
 1. Easy to use
 2. Can record user's selected font size.
 3. Small File's size (up to 2kb only!)
 4. Used the font-size which are always been used in web-design.
-   - 12px
-   - 14px
-   - 16px
-   - 20px
+   - 1em   (arround 12px if your default size is 12px)
+   - 1.3em (arround 16px)
+   - 1.6em (arround 20px)
+   - 2em   (arround 24px if your default size is 12px)
 
 How to use:
 ----------
@@ -39,9 +39,9 @@ Add the class "multi-fontszie" where you wanted to change the font-size.
 Demo:
 -----
 plain text demo:<br />
-http://tool.soyosolution.com/simple-multi-font-size-picker/demo/allinjs/demo.html
+http://tool.soyosolution.com/jquery-web-multimulta-font-size-changer/demo/allinjs/demo.html
 <br />Styled demo and introduction page:<br />
-http://tool.soyosolution.com/simple-multi-font-size-picker/demo/index.html
+http://tool.soyosolution.com/jquery-web-multimulta-font-size-changer/demo/index.html
 
 Reference:
 ---------
