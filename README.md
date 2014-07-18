@@ -2,6 +2,7 @@ jquery-web-multimulta-font-size-changer
 =============================
 The plugin “web multimulta font size chnager” can change font size of your web content by clicking an icon immediately. The plugin was written by jquery and easy to add to your website. It’s good for building a web accessibility website and also can record user’s selection by cookies. 
 And these are the overview of the advantages to using this plugin:
+
 1. Easy to use
 2. Can record user's selected font size.
 3. Small File's size (up to 2kb only!)
@@ -39,9 +40,9 @@ Add the class "multi-fontszie" where you wanted to change the font-size.
 Demo:
 -----
 plain text demo:<br />
-http://tool.soyosolution.com/jquery-web-multimulta-font-size-changer/demo/allinjs/demo.html
+http://tool.soyosolution.com/jquery-web-multimulta-font-size-changer/index.html
 <br />Styled demo and introduction page:<br />
-http://tool.soyosolution.com/jquery-web-multimulta-font-size-changer/demo/index.html
+http://tool.soyosolution.com/jquery-web-multimulta-font-size-changer/index.html
 
 Reference:
 ---------
