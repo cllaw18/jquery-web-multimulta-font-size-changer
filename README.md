@@ -19,14 +19,14 @@ Import javascript files:
 - jquery files
 - soyo-jquery-multi-font-size.min.js (plugin file)
 <pre>
-&lt;script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"&gt;&lt;/script&gt;
+&lt;script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"&gt; &lt;/script&gt;
 &lt;script src="soyo-jquery-multi-font-size.js"&gt;&lt;/script&gt;
 </pre>
 
 <b>Step 2 )</b><br />
 Add html where you want display the font-size selected box</p>
 <pre>
-&lt;div id="font_selection_box"&gt;&lt;/div&gt;&lt;
+&lt;div id="font_selection_box"&gt;&lt;/div&gt;
 </pre>
 
 <b>Step 3 )</b><br />
@@ -40,7 +40,7 @@ Add the class "multi-fontszie" where you wanted to change the font-size.
 Demo:
 -----
 plain text demo:<br />
-http://tool.soyosolution.com/jquery-web-multimulta-font-size-changer/index.html
+http://tool.soyosolution.com/jquery-web-multimulta-font-size-changer/demo/allinjs/text.html
 <br />Styled demo and introduction page:<br />
 http://tool.soyosolution.com/jquery-web-multimulta-font-size-changer/index.html
 
