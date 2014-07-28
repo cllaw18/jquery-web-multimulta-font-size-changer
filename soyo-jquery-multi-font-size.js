@@ -2,25 +2,23 @@ $(document).ready(function() {
     /** ----------------
     *  Embuded HTML code
     -------------------- */
-    var font_selection_box_html = "<div id=\"fontsize_opt1\" class=\"multi_font_icon\"></div>"+
-                                  "<div id=\"fontsize_opt2\" class=\"multi_font_icon\"></div>"+
-                                  "<div id=\"fontsize_opt3\" class=\"multi_font_icon\"></div>"+
-                                  "<div id=\"fontsize_opt4\" class=\"multi_font_icon\"></div>";
+    var resize_icon = 'data:image/jpg;base64,R0lGODlhFgAUALMPAOjn59DQ0JWVleDf37u7u8PCwp6dndjY2NHR0dnY2MrJyYeHh6ysrNTU1O/u7v///yH5BAEAAA8ALAAAAAAWABQAAASD8MlJq6Wh6c15qMHhjCQAkOTxTQ06Dovgjg3VuoSwFHPNuoAdw9Cz4WQwhMsnuZEEhJGBiGI+nI7C4uRALAZV45OBEpBJVqcXTNKyHWmSYcGo2xdRmhhm78+5cQ4MMjNBeXFBPDOChHEEW4sOMDxxCgmRI5ZwGCKYKCogHaIbKxemphEAOw==';
+    var font_selection_box_html = "";
+    //Use for loop create duplicated content, for reduce file size.
+    for (var i=1; i<=4; i++){
+        font_selection_box_html += "<img src="+resize_icon+" id=\"fontsize_opt"+i+"\" class=\"multi_font_icon\" />";
+    }
     $("#font_selection_box").html(font_selection_box_html);
 
     /** ---------------
     * Embuded CSS style
     -------------------*/
     $("#font_selection_box").css({"width":"75px","height":"22px","display":"block"});
-    $("#fontsize_opt1").css({"width":"12px","height":"12px","margin":"7px 1px 0 1px"});
+    $("#fontsize_opt1").css({"width":"12px","height":"11px","margin":"8px 1px 0 1px"});
     $("#fontsize_opt2").css({"width":"15px","height":"14px","margin":"5px 1px 0 1px"});
     $("#fontsize_opt3").css({"width":"18px","height":"16px","margin":"3px 1px 0 1px"});
     $("#fontsize_opt4").css({"width":"22px","height":"20px","margin":"0 1px 0 1px"});
-    $(".multi_font_icon").css({"float":"left",
-                               "cursor":"auto",
-                               "background-size":"100% 100%",
-                               "background-image":"url(data:application/octet-stream;base64,R0lGODlhFgAUALMPAOjn59DQ0JWVleDf37u7u8PCwp6dndjY2NHR0dnY2MrJyYeHh6ysrNTU1O/u7v///yH5BAEAAA8ALAAAAAAWABQAAASD8MlJq6Wh6c15qMHhjCQAkOTxTQ06Dovgjg3VuoSwFHPNuoAdw9Cz4WQwhMsnuZEEhJGBiGI+nI7C4uRALAZV45OBEpBJVqcXTNKyHWmSYcGo2xdRmhhm78+5cQ4MMjNBeXFBPDOChHEEW4sOMDxxCgmRI5ZwGCKYKCogHaIbKxemphEAOw==)"
-                              });
+    $(".multi_font_icon").css({"float":"left","cursor":"pointer"});
     
     /** -----------------------------------------------------------------
     * If user click the icons with ".multi_font_icon" class name, 
