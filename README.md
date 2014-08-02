@@ -12,6 +12,15 @@ And these are the overview of the advantages to using this plugin:
    - 1.6em (arround 20px)
    - 2em   (arround 24px if your default size is 12px)
 
+
+Updates:
+------------
+<b>28-07-2014</b><br />
+1. Fixed the display problem which only able to show a part of the icons in IE7 and IE8.<br />
+2. Add mouserover effect on the icons, if user's mouse arrow move onto the icons, turn into a hand icon.<br />
+3. Reduce midify javascript file size (to 1.59KB)<br />
+
+
 How to use:
 ----------
 <b>Step 1 )</b><br />
@@ -36,6 +45,7 @@ Add the class "multi-fontszie" where you wanted to change the font-size.
 &lt;p&gt;Hey hey! This is text!&lt;/p&gt;
 &lt;/div&gt;
 </pre>
+
 
 Demo:
 -----
