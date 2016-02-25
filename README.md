@@ -39,7 +39,7 @@ Add html where you want display the font-size selected box</p>
 </pre>
 
 <b>Step 3 )</b><br />
-Add the class "multi-fontszie" where you wanted to change the font-size.
+Add the class "multi-fontszie" where you wanted to change the font-size. ( But within the tag with id name font_selection_box )
 <pre>
 &lt;div class="multi-fontszie"&gt;
 &lt;p&gt;Hey hey! This is text!&lt;/p&gt;
